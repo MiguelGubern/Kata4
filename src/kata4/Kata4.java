@@ -14,7 +14,7 @@ public class Kata4 {
         for (File file : files) {
             System.out.println(indent + (file.isDirectory()? "+" : "-") + file.getName());
             if(!file.isDirectory() || file.isHidden()) continue;
-            print (file.listFiles(), indent + " ");
+            print (file.listFiles(), indent + " "); 
         }
         
     }
