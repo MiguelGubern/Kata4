@@ -1,4 +1,4 @@
-package kata4;
+package kata4.view;
 
 import java.io.BufferedReader;
 import java.io.File;

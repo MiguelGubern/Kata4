@@ -1,5 +1,9 @@
-package kata4;
+package kata4.control;
 
+import kata4.view.MailListReader;
+import kata4.view.MailHistogramBuilder;
+import kata4.view.HistogramDisplay;
+import kata4.model.Histogram;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
